@@ -1,0 +1,16 @@
+##############################################################################
+## Filename:          C:\Users\Rahul\Xilinx\MajorProj\drivers/present_hw_1_v1_00_a/data/present_hw_1_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Sat Mar 31 19:23:08 2012 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER present_hw_1_v1_00_a
+
+  OPTION supported_peripherals = (present_hw_1_v1_00_a);
+  OPTION depends = (common_v1_00_a);
+  OPTION DESC = PRESENT HW Crypto;
+  OPTION copyfiles = all;
+
+END DRIVER

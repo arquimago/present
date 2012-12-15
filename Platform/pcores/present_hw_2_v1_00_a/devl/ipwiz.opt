@@ -1,0 +1,13 @@
+-batch 
+-create present_hw_2 
+-ver 1.00.a 
+-dir C:\Users\Rahul\Xilinx\MajorProj\ 
+-lang vhdl 
+-bus fsl ms 
+-xps 
+-driver 
+-totalin 5
+-totalout 2
+-argin 1
+-argout 1
+-desc "PRESENT HW 2"
